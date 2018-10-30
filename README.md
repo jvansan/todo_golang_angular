@@ -2,6 +2,8 @@
 
 A simple, secure, Todo webapp built on a Go backend with an Angular frontend.
 
+Requires an account and application from [auth0](https://auth0.com/)
+
 Built following the tutorials at auth0.com/blog:
 
 [Part 1 - The Backend - Developing and Securing Golang APIs](https://auth0.com/blog/developing-golang-and-angular-apps-part-1-backend-api/)
@@ -18,3 +20,10 @@ go run main.go
 ```
 
 [Part 2 - The Front-end - Developing and Securing Angular Apps](https://auth0.com/blog/developing-golang-and-angular-apps-part-2-angular-front-end/)
+
+To run frontend, more instructions in `/ui`:
+
+```
+cd ui
+ng serve
+```
